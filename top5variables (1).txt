@@ -1,0 +1,4 @@
+The top-5 most important explanatory variables according to the automated stepwise foward selection are: NOX, RM, DIS, PTRATIO, LSTAT. These are the same set of variables previously selected using backward elimination, suggesting that both variable selection techniques gives a consistent result.
+
+The R^2 scores of the model trained on the training set with these top-5 variables are also consistent for both backward elimination and forward selection strategies:
+0.740 (by backward elimination) and 0.739 (by forward selection). 
