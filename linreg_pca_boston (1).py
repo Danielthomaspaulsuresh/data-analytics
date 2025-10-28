@@ -52,4 +52,4 @@ y_pred = model.predict(X_train_p)
 r_2 = metrics.r2_score(y_train, y_pred)
 print("Trained with 5-component PCA:")
 print("R^2: ", r_2)
-
+# evrything is done
